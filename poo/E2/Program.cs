@@ -7,32 +7,32 @@ namespace poo.E2
     {
         static void Main(string[] args)
         {
-            // Solicitar nome e idade do cliente
+            
             Console.Write("Digite seu nome: ");
             string nomeCliente = Console.ReadLine();
 
             Console.Write("Digite sua idade: ");
             int idadeCliente = int.Parse(Console.ReadLine());
 
-            // Criar cliente com base nas informações fornecidas
+            
             Cliente cliente = new Cliente(nomeCliente, idadeCliente);
 
-            // Criar funcionário (garçom fixo)
+            
             Funcionario garcon = new Funcionario("Maria", 28, "Garçonete");
 
-            // Criar restaurante e mesa
+            
             Restaurante restaurante = new Restaurante("Restaurante Exemplo");
             Mesa mesa1 = new Mesa(1);
 
-            // Adicionar produtos ao menu
+            
             restaurante.Menu.AdicionarProduto(new Produto(1, "Hamburguer", 25.00));
             restaurante.Menu.AdicionarProduto(2, "Batata Frita", 10.00);
             restaurante.Menu.AdicionarProduto(new Produto(3, "Refrigerante", 5.00));
 
-            // Criar uma lista vazia de produtos
+            
             List<Produto> produtos = new List<Produto>();
 
-            // Criar pedido com a lista de produtos
+            
             Pedido pedido = new Pedido(cliente, garcon, produtos, mesa1);
 
             bool running = true;
