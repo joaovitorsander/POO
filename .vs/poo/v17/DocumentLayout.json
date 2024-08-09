@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\ientidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\ientidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\restaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|c:\\users\\jo\u00E3o\\source\\repos\\poo\\poo\\e2\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82845B86-0DA0-47F3-A01D-72694186DA53}|poo\\poo.csproj|solutionrelative:poo\\e2\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +46,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEntidade.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\IEntidade.cs",
+              "RelativeDocumentMoniker": "poo\\E2\\IEntidade.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\IEntidade.cs",
+              "RelativeToolTip": "poo\\E2\\IEntidade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:34:51.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Program.cs",
+              "RelativeDocumentMoniker": "poo\\E2\\Program.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Program.cs",
+              "RelativeToolTip": "poo\\E2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:28:53.185Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,28 +84,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Program.cs",
-              "RelativeDocumentMoniker": "poo\\E2\\Program.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Program.cs",
-              "RelativeToolTip": "poo\\E2\\Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAmwFAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T02:47:34.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Restaurante.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Restaurante.cs",
               "RelativeDocumentMoniker": "poo\\E2\\Restaurante.cs",
               "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Restaurante.cs",
               "RelativeToolTip": "poo\\E2\\Restaurante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T02:45:49.485Z"
+              "WhenOpened": "2024-08-09T21:28:54.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Produto.cs",
+              "RelativeDocumentMoniker": "poo\\E2\\Produto.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Produto.cs",
+              "RelativeToolTip": "poo\\E2\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:25:57.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Pessoa.cs",
+              "RelativeDocumentMoniker": "poo\\E2\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Pessoa.cs",
+              "RelativeToolTip": "poo\\E2\\Pessoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:25:53.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Pedido.cs",
+              "RelativeDocumentMoniker": "poo\\E2\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Pedido.cs",
+              "RelativeToolTip": "poo\\E2\\Pedido.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwDgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:19:21.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,23 +142,35 @@
               "RelativeDocumentMoniker": "poo\\E2\\Mesa.cs",
               "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Mesa.cs",
               "RelativeToolTip": "poo\\E2\\Mesa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T02:44:30.909Z",
+              "WhenOpened": "2024-08-09T21:17:27.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Menu.cs",
               "RelativeDocumentMoniker": "poo\\E2\\Menu.cs",
               "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Menu.cs",
               "RelativeToolTip": "poo\\E2\\Menu.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCYAAAAqAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T02:40:55.583Z",
+              "WhenOpened": "2024-08-09T02:52:46.533Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Funcionario.cs",
+              "RelativeDocumentMoniker": "poo\\E2\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\poo\\poo\\E2\\Funcionario.cs",
+              "RelativeToolTip": "poo\\E2\\Funcionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T02:49:09.746Z"
             }
           ]
         }

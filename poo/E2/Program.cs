@@ -25,9 +25,9 @@ namespace poo.E2
             Mesa mesa1 = new Mesa(1);
 
             // Adicionar produtos ao menu
-            restaurante.Menu.AdicionarProduto(new Produto("Hamburguer", 25.00));
-            restaurante.Menu.AdicionarProduto("Batata Frita", 10.00);
-            restaurante.Menu.AdicionarProduto(new Produto("Refrigerante", 5.00));
+            restaurante.Menu.AdicionarProduto(new Produto(1, "Hamburguer", 25.00));
+            restaurante.Menu.AdicionarProduto(2, "Batata Frita", 10.00);
+            restaurante.Menu.AdicionarProduto(new Produto(3, "Refrigerante", 5.00));
 
             // Criar uma lista vazia de produtos
             List<Produto> produtos = new List<Produto>();
