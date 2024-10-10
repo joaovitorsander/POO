@@ -7,93 +7,33 @@ namespace poo.E2
     {
         static void Main(string[] args)
         {
-            
+            // Captura os dados do cliente
             Console.Write("Digite seu nome: ");
             string nomeCliente = Console.ReadLine();
 
             Console.Write("Digite sua idade: ");
             int idadeCliente = int.Parse(Console.ReadLine());
 
-            
-            Cliente cliente = new Cliente(nomeCliente, idadeCliente);
+            // Cria instâncias de Cliente e Funcionario
+            Cliente cliente = new Cliente(1, nomeCliente, idadeCliente);
+            Funcionario garcon = new Funcionario(1, "Maria", 28, "Garçonete");
 
-            
-            Funcionario garcon = new Funcionario("Maria", 28, "Garçonete");
-
-            
+            // Cria o restaurante e adiciona produtos ao menu
             Restaurante restaurante = new Restaurante("Restaurante Exemplo");
-            Mesa mesa1 = new Mesa(1);
+            restaurante.Menu.AdicionarItem(new Produto(1, "Hamburguer", 25.00));
+            restaurante.Menu.AdicionarItem(new Produto(2, "Batata Frita", 10.00));
+            restaurante.Menu.AdicionarItem(new Produto(3, "Refrigerante", 5.00));
 
-            
-            restaurante.Menu.AdicionarProduto(new Produto(1, "Hamburguer", 25.00));
-            restaurante.Menu.AdicionarProduto(2, "Batata Frita", 10.00);
-            restaurante.Menu.AdicionarProduto(new Produto(3, "Refrigerante", 5.00));
+            // Cria o pedido e adiciona produtos
+            Pedido<Produto> pedido = new Pedido<Produto>(cliente, garcon, new Mesa(1));
+            pedido.AdicionarItem(restaurante.Menu.ObterItemPorNome("Hamburguer"));
 
-            
-            List<Produto> produtos = new List<Produto>();
+            // Exibe os detalhes do pedido
+            pedido.MostrarDetalhes();
 
-            
-            Pedido pedido = new Pedido(cliente, garcon, produtos, mesa1);
-
-            bool running = true;
-
-            while (running)
-            {
-                Console.Clear();
-                Console.WriteLine($"Bem-vindo ao Restaurante Exemplo, {cliente.Nome}!");
-                Console.WriteLine("Selecione uma opção:");
-                Console.WriteLine("1. Ver Menu");
-                Console.WriteLine("2. Adicionar Produto ao Pedido");
-                Console.WriteLine("3. Ver Detalhes do Pedido");
-                Console.WriteLine("4. Sair");
-                Console.Write("Opção: ");
-                string opcao = Console.ReadLine();
-
-                switch (opcao)
-                {
-                    case "1":
-                        Console.Clear();
-                        restaurante.Menu.MostrarMenu();
-                        Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
-                        Console.ReadKey();
-                        break;
-
-                    case "2":
-                        Console.Clear();
-                        Console.WriteLine("Digite o nome do produto que deseja adicionar ao pedido:");
-                        string nomeProduto = Console.ReadLine();
-                        Produto produto = restaurante.Menu.GetProduto(nomeProduto);
-                        if (produto != null)
-                        {
-                            pedido.AdicionarProduto(produto);
-                            Console.WriteLine($"{produto.Nome} adicionado ao pedido com sucesso!");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Produto não encontrado no menu.");
-                        }
-                        Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
-                        Console.ReadKey();
-                        break;
-
-                    case "3":
-                        Console.Clear();
-                        pedido.MostrarDetalhes();
-                        Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
-                        Console.ReadKey();
-                        break;
-
-                    case "4":
-                        running = false;
-                        Console.WriteLine("Obrigado por usar o sistema do restaurante!");
-                        break;
-
-                    default:
-                        Console.WriteLine("Opção inválida! Pressione qualquer tecla para tentar novamente...");
-                        Console.ReadKey();
-                        break;
-                }
-            }
+            // Pausa o programa para que o console permaneça aberto
+            Console.WriteLine("\nPressione qualquer tecla para sair...");
+            Console.ReadKey();
         }
     }
 }

@@ -7,15 +7,13 @@ using System.Threading.Tasks;
 
 namespace poo.E2
 {
-    public class Cliente : Pessoa
+    public class Cliente : Pessoa<int>
     {
-        public Cliente(string nome, int idadade) : base(nome, idadade)
-        {
-        }
+        public Cliente(int id, string nome, int idade) : base(id, nome, idade) { }
 
         public override void MostrarDetalhes()
         {
-            Console.WriteLine($"Cliente: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Cliente ID: {Id}, Nome: {Nome}, Idade: {Idade}");
         }
     }
 }

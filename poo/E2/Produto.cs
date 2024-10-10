@@ -6,22 +6,25 @@ using System.Threading.Tasks;
 
 namespace poo.E2
 {
-    public class Produto : IEntidade
+    // Classe que representa um produto, implementando a interface genérica IEntidade
+    public class Produto : IEntidade<int>
     {
-        public int Codigo { get; set; }
-        public string Nome { get; set; }
-        public double Preco { get; set; }
+        public int Id { get; set; } // Código identificador do produto
+        public string Nome { get; set; } // Nome do produto
+        public double Preco { get; set; } // Preço do produto
 
-        public Produto(int codigo, string nome, double preco)
+        // Construtor que inicializa os valores do produto
+        public Produto(int id, string nome, double preco)
         {
-            Codigo = codigo;
+            Id = id;
             Nome = nome;
             Preco = preco;
         }
 
+        // Método para exibir os detalhes do produto
         public void MostrarDetalhes()
         {
-            Console.WriteLine($"Código: {Codigo}, Produto: {Nome}, Preço: {Preco}");
+            Console.WriteLine($"ID: {Id}, Produto: {Nome}, Preço: {Preco:C}");
         }
     }
 }

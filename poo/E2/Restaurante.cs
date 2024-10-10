@@ -1,4 +1,5 @@
-﻿using System;
+﻿using poo.E2.poo.E2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,17 +9,16 @@ namespace poo.E2
 {
     public class Restaurante
     {
-        
-        public string Nome {  get; set; }
-        public Menu Menu { get; set; } 
+        public string Nome { get; set; }
+        public Menu<Produto> Menu { get; set; }
 
-        
-        public Restaurante(String nome) 
+        public Restaurante(string nome)
         {
             Nome = nome;
-            Menu = new Menu();
+            Menu = new Menu<Produto>();
         }
 
+        // Exibe detalhes do restaurante e do menu
         public void MostrarDetalhes()
         {
             Console.WriteLine($"Restaurante: {Nome}");
@@ -26,3 +26,5 @@ namespace poo.E2
         }
     }
 }
+
+

@@ -6,39 +6,44 @@ using System.Threading.Tasks;
 
 namespace poo.E2
 {
-    //Criando a classe menu
-    public class Menu
+    namespace poo.E2
     {
-        private List<Produto> produtos;
-
-        public Menu()
+        public class Menu<T> where T : IEntidade<int>
         {
-            produtos = new List<Produto>();
-        }
+            private List<T> itens;
 
-        public void AdicionarProduto(Produto produto)
-        {
-            produtos.Add(produto);
-        }
-
-        public void AdicionarProduto(int codigo, string nome, double preco)
-        {
-            Produto produto = new Produto(codigo, nome, preco);
-            produtos.Add(produto);
-        }
-
-        public Produto GetProduto(string nome)
-        {
-            return produtos.Find(p => p.Nome == nome);
-        }
-
-        public void MostrarMenu()
-        {
-            Console.WriteLine("Menu do restaurante:");
-            foreach (var produto in produtos)
+            public Menu()
             {
-                produto.MostrarDetalhes();
+                itens = new List<T>();
+            }
+
+            // Adiciona itens ao menu, mantendo responsabilidade única (SOLID - Single Responsibility Principle).
+            public void AdicionarItem(T item)
+            {
+                if (item == null)
+                {
+                    Console.WriteLine("Item inválido.");
+                    return;
+                }
+                itens.Add(item);
+            }
+
+            // Busca um item pelo nome, aplicando separação de responsabilidade (SOC).
+            public T ObterItemPorNome(string nome)
+            {
+                return itens.FirstOrDefault(p => p.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
+            }
+
+            // Exibe o menu do restaurante
+            public void MostrarMenu()
+            {
+                Console.WriteLine("Menu do restaurante:");
+                foreach (var item in itens)
+                {
+                    item.MostrarDetalhes();
+                }
             }
         }
     }
 }
+

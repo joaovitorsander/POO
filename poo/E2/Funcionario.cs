@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace poo.E2
 {
-    public class Funcionario : Pessoa
+    public class Funcionario : Pessoa<int>
     {
-        public string Cargo { get; set; }
+        public string Cargo { get; private set; }
 
-        public Funcionario(string nome, int idade, string cargo) : base(nome, idade) 
+        public Funcionario(int id, string nome, int idade, string cargo) : base(id, nome, idade)
         {
             Cargo = cargo;
         }
 
         public override void MostrarDetalhes()
         {
-            Console.WriteLine($"Funcionário: {Nome}, Idadade: {Idade}, Cargo: {Cargo}");
+            Console.WriteLine($"Funcionário ID: {Id}, Nome: {Nome}, Idade: {Idade}, Cargo: {Cargo}");
         }
     }
 }
